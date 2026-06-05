@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<circle cx="128" cy="128" r="128" fill="#5e4d38"/>
+<circle cx="128" cy="128" r="50" fill="none" stroke="#c9a96e" stroke-width="8"/>
+<line x1="128" y1="78" x2="128" y2="178" stroke="#c9a96e" stroke-width="8"/>
+<line x1="78" y1="128" x2="178" y2="128" stroke="#c9a96e" stroke-width="8"/>
+<line x1="92.7" y1="92.7" x2="163.3" y2="163.3" stroke="#c9a96e" stroke-width="8"/>
+<line x1="163.3" y1="92.7" x2="92.7" y2="163.3" stroke="#c9a96e" stroke-width="8"/>
+<path d="M 128 78 L 148 88 L 148 108 L 128 98 Z" fill="#c9a96e"/>
+<path d="M 178 128 L 168 148 L 148 148 L 158 128 Z" fill="#c9a96e"/>
+<path d="M 128 178 L 108 168 L 108 148 L 128 158 Z" fill="#c9a96e"/>
+<path d="M 78 128 L 88 108 L 108 108 L 98 128 Z" fill="#c9a96e"/>
+<path d="M 163.3 92.7 L 158 112 L 138 106.7 L 143.3 87.4 Z" fill="#c9a96e"/>
+<path d="M 163.3 163.3 L 143 158 L 148.3 138 L 168.6 143.3 Z" fill="#c9a96e"/>
+<path d="M 92.7 163.3 L 98 143 L 118 148.3 L 112.7 168.6 Z" fill="#c9a96e"/>
+<path d="M 92.7 92.7 L 113 98 L 107.7 118 L 87.4 112.7 Z" fill="#c9a96e"/>
+<circle cx="128" cy="128" r="12" fill="#c9a96e"/>
+</svg>
