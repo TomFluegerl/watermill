@@ -21,7 +21,7 @@ git push -u origin main
 4. Wähle den Branch **main** und Ordner **/ (root)**
 5. Klicke auf **Save**
 
-Die Webseite ist dann unter **https://tomfluegerl.github.io/waterwheel/** erreichbar.
+Die Webseite ist dann unter **https://tomfluegerl.github.io/watermill/** erreichbar.
 
 ### 3. Eigene Domain (optional)
 
