@@ -459,7 +459,7 @@ img { max-width: 100%; height: auto; }
 /* === IMAGE DIVIDER === */
 .image-divider {
   position: relative;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
   display: flex;
   align-items: center;
