@@ -329,6 +329,37 @@ img { max-width: 100%; height: auto; }
   line-height: 1.85;
 }
 
+/* === PHOTO ALBUM BUTTON === */
+.photo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 15px 38px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--color-brown);
+  border: 1.5px solid var(--color-brown);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(94, 77, 56, 0.25);
+  transition: all 0.35s;
+}
+
+.photo-btn:hover {
+  background: var(--color-brown-dark);
+  border-color: var(--color-brown-dark);
+  color: var(--color-cream);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(94, 77, 56, 0.35);
+}
+
+.photo-btn-icon {
+  flex-shrink: 0;
+}
+
 /* === CARDS === */
 .cards-row {
   display: grid;
