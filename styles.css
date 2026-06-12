@@ -468,7 +468,7 @@ img { max-width: 100%; height: auto; }
 
 .image-divider-bg {
   position: absolute;
-  inset: -40px 0;
+  inset: -20px 0;
   background-size: cover;
   background-position: center;
   will-change: transform;
