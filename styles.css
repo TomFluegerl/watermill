@@ -530,6 +530,14 @@ img { max-width: 100%; height: auto; }
   gap: 24px;
 }
 
+.address-grid + .address-grid {
+  margin-top: 24px;
+}
+
+.address-grid--triple {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .address-card {
   background: var(--color-cream);
   border-radius: 8px;
@@ -601,6 +609,10 @@ img { max-width: 100%; height: auto; }
   text-align: left;
 }
 
+.address-list-intro {
+  text-align: left;
+}
+
 .address-list li {
   padding: 4px 0 4px 18px;
   position: relative;
@@ -630,14 +642,16 @@ img { max-width: 100%; height: auto; }
 /* === INFO GRID === */
 .info-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 760px;
+  margin: 0 auto;
 }
 
 .info-item {
   background: rgba(255,255,255,0.7);
   border-radius: 8px;
-  padding: 32px 24px;
+  padding: 22px 20px;
   text-align: center;
   border: 1px solid rgba(139, 115, 85, 0.08);
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
@@ -808,7 +822,11 @@ img { max-width: 100%; height: auto; }
     left: -21px;
   }
   .info-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  .info-item {
+    padding: 18px 14px;
   }
   .image-divider {
     height: 240px;
