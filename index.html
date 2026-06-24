@@ -102,15 +102,23 @@
     <div class="container">
       <div class="section-icon">
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="24" cy="24" r="20" stroke="#8b7355" stroke-width="1.5" />
-          <!-- fuselage + tail -->
-          <path d="M16 12 L18 14 L22 15 L31 28" stroke="#8b7355" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <!-- wing -->
-          <path d="M22 20 L26 18 L24 21" stroke="#8b7355" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <circle cx="24" cy="24" r="20" stroke="#8b7355" stroke-width="1.5" fill="none"/>
+          <!-- Gefüllte stilisierte Flugzeug-Silhouette, gedreht um 30° (Landeanflug nach unten-rechts) -->
+          <g transform="rotate(30 24 24)" fill="#8b7355" stroke="none">
+            <!-- Rumpf -->
+            <rect x="18" y="22" width="10" height="4" rx="1"/>
+            <!-- Nase -->
+            <polygon points="30,24 26,22 26,26"/>
+            <!-- Flügel (oben/unten) -->
+            <polygon points="22,20 14,18 18,24"/>
+            <polygon points="22,28 14,30 18,24"/>
+            <!-- Leitwerk / Heck -->
+            <polygon points="18,22 16,18 16,30 18,26"/>
+          </g>
         </svg>
       </div>
       <h2 class="section-title">"Onboarding" - Ankunft am Donnerstag Abend</h2>
-      <p class="section-subtitle">...im Landeanflug</p>
+      <p class="section-subtitle">Prepare for Landing</p>
 
       <div class="timeline">
         <div class="timeline-item" data-animate>
